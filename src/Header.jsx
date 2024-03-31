@@ -2,7 +2,7 @@ function Header () {
 
     return (
         <header>
-            <h1>Student Grades</h1>
+            <h1>Pursuit Squad Track</h1>
         </header>
     )
 }

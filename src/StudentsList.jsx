@@ -2,7 +2,6 @@ import StudentsListItem from "./StudentsListItem"
 
 function StudentList ({students}) {
 
-    console.log(students)
     return  (
         <div className="studentList">
             <ul>

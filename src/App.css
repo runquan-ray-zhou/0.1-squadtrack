@@ -3,24 +3,31 @@
     padding: 2px;
 }
 
+h1 {
+    margin: 0;
+}
+
 header {
     background: white;
     text-align: center;
-    font-size: 2em;
+    margin: 0;
+    padding: 0;
+    height: auto;
 }
 
-.studentList {
+.squadList {
     ul {
         display: grid;
         grid-template-areas:". . a . ."
-                            ". b c d ."
-                            "e f g h i";
+                            ". b . c ."
+                            "d . e . f";
         gap: 10px;
     }
 
 }
 
-.student {
+.squad {
+
     width: auto;
     height: auto;
     background: lightseagreen;
@@ -30,16 +37,22 @@ header {
         display: block;
         list-style: none;
         padding-left: 0;
+        li {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
     }
 }
 
-.student:nth-child(1) { grid-area: a }
-.student:nth-child(2) { grid-area: b }
-.student:nth-child(3) { grid-area: c }
-.student:nth-child(4) { grid-area: d }
-.student:nth-child(5) { grid-area: e }
-.student:nth-child(6) { grid-area: f }
-.student:nth-child(7) { grid-area: g }
-.student:nth-child(8) { grid-area: h }
-.student:nth-child(9) { grid-area: i }
+.score{
+    font-size: 2em;
+    color: darkred
+}
 
+.squad:nth-child(1) { grid-area: a }
+.squad:nth-child(2) { grid-area: b }
+.squad:nth-child(3) { grid-area: c }
+.squad:nth-child(4) { grid-area: d }
+.squad:nth-child(5) { grid-area: e }
+.squad:nth-child(6) { grid-area: f }

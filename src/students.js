@@ -1,111 +1,235 @@
 let students = [
     {
-        firstName: "Ray",
-        lastName: "Joe",
+        firstName: "Adeola",
+        lastName: "Aina-Marshall",
         grades: [
-            { subject: "CodeTrack", score: 9999},
-            { subject: "Math", score: 50 },
-            { subject: "Science", score: 60 },
-            { subject: "History", score: 70 },
-            { subject: "English", score: 80 },
-            { subject: "Art", score: 90 }
-        ]
+            { subject: "CodeTrack", score: 120},
+        ],
+        squad: 1
     },
     {
-        firstName: "John",
-        lastName: "Doe",
+        firstName: "Bryan",
+        lastName: "Alcantara",
         grades: [
-            { subject: "CodeTrack", score: 8888},
-            { subject: "Math", score: 85 },
-            { subject: "Science", score: 90 },
-            { subject: "History", score: 75 },
-            { subject: "English", score: 88 },
-            { subject: "Art", score: 95 }
-        ]
+            { subject: "CodeTrack", score: 840},
+        ],
+        squad: 1
     },
     {
-        firstName: "Jane",
-        lastName: "Smith",
+        firstName: "Lynnette",
+        lastName: "Jacobs",
         grades: [
-            { subject: "CodeTrack", score: 1111},
-            { subject: "Math", score: 78 },
-            { subject: "Science", score: 82 },
-            { subject: "History", score: 91 },
-            { subject: "English", score: 87 },
-            { subject: "Art", score: 80 }
-        ]
+            { subject: "CodeTrack", score: 1070},
+        ],
+        squad: 1
     },
     {
-        firstName: "Alice",
-        lastName: "Johnson",
+        firstName: "Jorge",
+        lastName: "Godoy Rodriguez",
         grades: [
-            { subject: "CodeTrack", score: 3333},
-            { subject: "Math", score: 90 },
-            { subject: "Science", score: 85 },
-            { subject: "History", score: 80 },
-            { subject: "English", score: 92 },
-            { subject: "Art", score: 88 }
-        ]
+            { subject: "CodeTrack", score: 754},
+        ],
+        squad: 1
     },
     {
-        firstName: "Bob",
-        lastName: "Williams",
+        firstName: "Patrick",
+        lastName: "Rogers",
         grades: [
-            { subject: "CodeTrack", score: 4444},
-            { subject: "Math", score: 75 },
-            { subject: "Science", score: 80 },
-            { subject: "History", score: 85 },
-            { subject: "English", score: 78 },
-            { subject: "Art", score: 82 }
-        ]
+            { subject: "CodeTrack", score: 223},
+        ],
+        squad: 1
     },
     {
-        firstName: "Emily",
-        lastName: "Brown",
+        firstName: "Ayyoub",
+        lastName: "Belibel",
         grades: [
-            { subject: "CodeTrack", score: 5555},
-            { subject: "Math", score: 92 },
-            { subject: "Science", score: 88 },
-            { subject: "History", score: 85 },
-            { subject: "English", score: 90 },
-            { subject: "Art", score: 95 }
-        ]
+            { subject: "CodeTrack", score: 2345},
+        ],
+        squad: 2
+    },
+    {
+        firstName: "Nahida Niki",
+        lastName: "Khanam",
+        grades: [
+            { subject: "CodeTrack", score: 86},
+        ],
+        squad: 2
+    },
+    {
+        firstName: "Abdelrahman",
+        lastName: "Sayedahmed",
+        grades: [
+            { subject: "CodeTrack", score: 1976},
+        ],
+        squad: 2
+    },
+    {
+        firstName: "Abraham",
+        lastName: "Zambrano Tablante",
+        grades: [
+            { subject: "CodeTrack", score: 619},
+        ],
+        squad: 2
+    },
+    {
+        firstName: "Runquan (Ray)",
+        lastName: "Zhou",
+        grades: [
+            { subject: "CodeTrack", score: 2835},
+        ],
+        squad: 2
+    },
+    {
+        firstName: "Ari",
+        lastName: "Collado",
+        grades: [
+            { subject: "CodeTrack", score: 211},
+        ],
+        squad: 5
+    },
+    {
+        firstName: "Marcus",
+        lastName: "Browne",
+        grades: [
+            { subject: "CodeTrack", score: 177},
+        ],
+        squad: 5
+    },
+    {
+        firstName: "Venkata",
+        lastName: "Raji Reddy Eda",
+        grades: [
+            { subject: "CodeTrack", score: 80},
+        ],
+        squad: 5
+    },
+    {
+        firstName: "Shanel",
+        lastName: "Elm",
+        grades: [
+            { subject: "CodeTrack", score: 194},
+        ],
+        squad: 5
+    },
+    {
+        firstName: "Antonio",
+        lastName: "Martinez",
+        grades: [
+            { subject: "CodeTrack", score: 3636},
+        ],
+        squad: 5
+    },
+    {
+        firstName: "Alexandra",
+        lastName: "Perez",
+        grades: [
+            { subject: "CodeTrack", score: 821},
+        ],
+        squad: 5
+    },
+    {
+        firstName: "Gerardo",
+        lastName: "Garcia Jr",
+        grades: [
+            { subject: "CodeTrack", score: 881},
+        ],
+        squad: 6
+    },
+    {
+        firstName: "Kurt",
+        lastName: "Julien",
+        grades: [
+            { subject: "CodeTrack", score: 188},
+        ],
+        squad: 6
+    },
+    {
+        firstName: "Malaika",
+        lastName: "Oglesby",
+        grades: [
+            { subject: "CodeTrack", score: 0},
+        ],
+        squad: 6
+    },
+    {
+        firstName: "Steven",
+        lastName: "Rouse",
+        grades: [
+            { subject: "CodeTrack", score: 872},
+        ],
+        squad: 6
+    },
+    {
+        firstName: "Franklin",
+        lastName: "Taylor",
+        grades: [
+            { subject: "CodeTrack", score: 117},
+        ],
+        squad: 6
+    },
+    {
+        firstName: "Anthony",
+        lastName: "Cannonier",
+        grades: [
+            { subject: "CodeTrack", score: 4613},
+        ],
+        squad: 7
     },
     {
         firstName: "Michael",
-        lastName: "Jones",
+        lastName: "Dantzler",
         grades: [
-            { subject: "CodeTrack", score: 2222},
-            { subject: "Math", score: 80 },
-            { subject: "Science", score: 75 },
-            { subject: "History", score: 82 },
-            { subject: "English", score: 78 },
-            { subject: "Art", score: 85 }
-        ]
+            { subject: "CodeTrack", score: 300},
+        ],
+        squad: 7
     },
     {
-        firstName: "Sophia",
-        lastName: "Lee",
+        firstName: "Erick",
+        lastName: "Fierro",
         grades: [
-            { subject: "CodeTrack", score: 7777},
-            { subject: "Math", score: 85 },
-            { subject: "Science", score: 90 },
-            { subject: "History", score: 92 },
-            { subject: "English", score: 88 },
-            { subject: "Art", score: 85 }
-        ]
+            { subject: "CodeTrack", score: 548},
+        ],
+        squad: 7
     },
     {
-        firstName: "Daniel",
-        lastName: "Taylor",
+        firstName: "Dante",
+        lastName: "Rodriguez",
         grades: [
-            { subject: "CodeTrack", score: 6666},
-            { subject: "Math", score: 88 },
-            { subject: "Science", score: 85 },
-            { subject: "History", score: 90 },
-            { subject: "English", score: 82 },
-            { subject: "Art", score: 78 }
-        ]
+            { subject: "CodeTrack", score: 310},
+        ],
+        squad: 7
+    },
+    {
+        firstName: "Ariel",
+        lastName: "Thomas",
+        grades: [
+            { subject: "CodeTrack", score: 17},
+        ],
+        squad: 7
+    },
+    {
+        firstName: "Raz",
+        lastName: "Efron",
+        grades: [
+            { subject: "CodeTrack", score: 2141},
+        ],
+        squad: "Coach"
+    },
+    {
+        firstName: "Davonte",
+        lastName: "Williams",
+        grades: [
+            { subject: "CodeTrack", score: 0},
+        ],
+        squad: "Coach"
+    },
+    {
+        firstName: "Youssef",
+        lastName: "Mohamed Farouk",
+        grades: [
+            { subject: "CodeTrack", score: 2167},
+        ],
+        squad: "Coach"
     }
 ];
 
